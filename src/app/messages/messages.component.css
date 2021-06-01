@@ -1,0 +1,12 @@
+*{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#messageButton{
+    margin-bottom: 20px;
+    color: rgb(50, 45, 51);
+    background-color: white;
+    border-radius: 15px;
+}

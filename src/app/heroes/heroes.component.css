@@ -12,6 +12,7 @@
     padding: .5rem;
     margin: 1rem 0;
     box-sizing: border-box;
+    background-color: white;
   }
   
   .heroes li {
@@ -33,15 +34,16 @@
     border-radius: 4px;
     display: block;
     width: 100%;
+  
   }
   
   .heroes a:hover {
-    color: #2c3a41;
-    background-color: #e6e6e6;
+    color: #793973;
+    background-color: #ffffff;
   }
   
   .heroes a:active {
-    background-color: #525252;
+    background-color: #543d69;
     color: #fafafa;
   }
   
@@ -50,7 +52,7 @@
     font-size: small;
     color: white;
     padding: 0.8em 0.7em 0 0.7em;
-    background-color:#405061;
+    background-color:#7e527c;
     line-height: 1em;
     position: relative;
     left: -1px;
@@ -66,11 +68,15 @@
    padding: .5rem 1.5rem;
    font-size: 1rem;
    margin-bottom: 2rem;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .add-button:hover {
     color: white;
-    background-color: #42545C;
+    background-color: #714677;
   }
   
   button.delete {
@@ -78,12 +84,12 @@
     left: 210px;
     top: 5px;
     background-color: white;
-    color:  #525252;
+    color:  #865997;
     font-size: 1.1rem;
     padding: 1px 10px 3px 10px;
   }
   
   button.delete:hover {
-    background-color: #525252;
+    background-color: #704774;
     color: white;
   }
