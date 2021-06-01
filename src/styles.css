@@ -1,11 +1,11 @@
 /* Application-wide Styles */
 h1 {
-    color: #369;
+    color: rgb(255, 167, 202);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
   }
   h2, h3 {
-    color: #444;
+    color: rgb(56, 25, 42);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
   }
@@ -13,10 +13,12 @@ h1 {
     margin: 2em;
   }
   body, input[type="text"], button {
-    color: #333;
+    color: rgb(100, 37, 87);
     font-family: Cambria, Georgia, serif;
   }
   /* everywhere else */
   * {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 37, 87);
+    background-color: rgb(255, 217, 239);
   }
