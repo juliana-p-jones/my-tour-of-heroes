@@ -2,7 +2,10 @@
 
 h2 {
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
   }
   
   .heroes-menu {
@@ -21,7 +24,7 @@ h2 {
   }
   
   a {
-    background-color: #3f525c;
+    background-color: #7d5397;
     border-radius: 2px;
     padding: 1rem;
     font-size: 1.2rem;
@@ -44,9 +47,12 @@ h2 {
     a {
       width: 18%;
       box-sizing: content-box;
+      display: flex;
+    justify-content: center;
+    align-items: center;
     }
   }
   
   a:hover {
-    background-color: #000;
+    background-color: rgb(167, 120, 185);
   }

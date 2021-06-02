@@ -1,24 +1,36 @@
 /* HeroDetailComponent's private CSS styles */
 label {
-    color: #435960;
+    color: #7b3085;
     font-weight: bold;
   }
   input {
     font-size: 1em;
     padding: .5rem;
+    background-color: white;
   }
   button {
     margin-top: 20px;
-    background-color: #eee;
+    background-color: rgb(255, 255, 255);
     padding: 1rem;
     border-radius: 4px;
     font-size: 1rem;
+    align-items: center;
+
+    justify-content: center;
+    align-items: center;
   }
   button:hover {
-    background-color: #cfd8dc;
+    background-color: #f098eb;
   }
   button:disabled {
-    background-color: #eee;
+    background-color: rgb(151, 116, 144);
     color: #ccc;
     cursor: auto;
+  }
+  #goback{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }

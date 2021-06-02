@@ -3,9 +3,13 @@
 label {
     display: block;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top: 1rem;
     margin-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
   
   }
   input {
@@ -14,10 +18,12 @@ label {
     max-width: 600px;
     box-sizing: border-box;
     display: block;
+    background-color: white;
+    color: rgb(97, 47, 97);
   }
   
   input:focus {
-    outline: #336699 auto 1px;
+    outline: #ad48b6 auto 1px;
   }
   
   li {
@@ -37,8 +43,8 @@ label {
   }
   
   .search-result li a:hover {
-    background-color: #435A60;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(64, 40, 80);
   }
   
   ul.search-result {
